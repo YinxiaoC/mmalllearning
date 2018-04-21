@@ -1,0 +1,34 @@
+*.class
+
+# packge file(*.jar先不配置maven的jar包在本地仓库，不会上传)
+*.war
+*.ear
+
+# kdiff3 ignore
+*.orig
+
+# maven ignore
+target/
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+# temp file(临时文件)
+*.log
+*.cache
+*.patch
+*.diff
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
